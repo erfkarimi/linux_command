@@ -6,7 +6,7 @@ stands for "super user do" and gives root access <br>
 ```bash
 pwd
 ```
-stands for "print working direcroty" <br>
+stands for "print working directory" <br>
 
 ```bash
 cd 

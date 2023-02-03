@@ -34,9 +34,9 @@ sudo dnf install vlc
 ```bash
 sudo dnf upgrade --refresh -y
 
-sudo dnf install https://download1.rpmfusion.org/free/... -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
-sudo dnf install https://download1.rpmfusion.org/nonfr... -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 sudo dnf update --refresh
 

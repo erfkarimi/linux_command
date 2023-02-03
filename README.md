@@ -1,20 +1,16 @@
+### ZSH installation
 ```bash
-sudo
+sudo dnf install zsh
 ```
-stands for "super user do" and gives root access <br>
+### ohmyzsh installation
+```bash
+sudo dnf install wget curl git
 
-```bash
-pwd
-```
-stands for "print working directory" <br>
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-```bash
-cd 
-```
-stands for "change directory" and used for changing directory in terminal <br>
-e.g: cd home/username/project <br>
+OR
 
-```bash
-cd ..
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+chsh -s $(which zsh)
 ```
-this command takes you to previous directory

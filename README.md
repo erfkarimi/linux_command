@@ -60,4 +60,20 @@ sudo systemctl start docker
 sudo docker run hello-world
 ```
 
+### Pip installation
+```bash
+sudo dnf install python3-pip
+```
 
+### Virtualenv and Django installation 
+```bash
+sudo pip install virtualenv
+
+pip install django==<version>
+```
+
+### Preload installation
+```bash
+sudo dnf copr enable elxreno/preload -y
+
+sudo dnf install preload -y

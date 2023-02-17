@@ -30,7 +30,7 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 sudo dnf install vlc
 ```
 
-### Nvidia graphic card driver
+### Nvidia graphic card driver installation
 ```bash
 sudo dnf upgrade --refresh -y
 
